@@ -1,0 +1,5 @@
+# Environments
+.mm-venv
+
+# misc
+.DS_Store
