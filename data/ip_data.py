@@ -1,4 +1,4 @@
-sample_ip_addresses = ['80.90.90.90', '90.80.90.90', '90.90.90.90']
+sample_ip_address = '90.90.90.90'  # Paris
 
 more_ip_addresses = ['15.15.15.15',
                      '30.30.30.30',
