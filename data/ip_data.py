@@ -1,5 +1,7 @@
 sample_ip_address = '90.90.90.90'  # Paris
 
+ip_address_pair = ['90.90.90.90', '90.80.90.90']
+
 more_ip_addresses = ['15.15.15.15',
                      '30.30.30.30',
                      '45.45.45.45',
