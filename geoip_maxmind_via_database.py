@@ -1,6 +1,6 @@
+import geoip2.database
 import json
 
-import geoip2.database
 import data.ip_data as data
 
 geo_data = []
@@ -22,5 +22,5 @@ with geoip2.database.Reader('./db/GeoLite2-City_20220301/GeoLite2-City.mmdb') as
              "accuracy": ip_obj.location.accuracy_radius})
 
 # print(geo_data)
-my_geo_json = json.dumps(geo_data, indent=2)
-print(my_geo_json)
+geo_json = json.dumps(geo_data, indent=2)
+print(geo_json)
