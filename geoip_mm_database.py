@@ -14,7 +14,7 @@ with geoip2.database.Reader('./db/GeoLite2-City_20220301/GeoLite2-City.mmdb') as
         # print(f'Lat/Lng: {ip_obj.location.latitude, ip_obj.location.longitude}')
         # print(f'Accuracy: {ip_obj.location.accuracy_radius} km\n')
 
-        # create a dict of the data and push to the geo_data list
+        # manually create a dict of the data and push to the geo_data list
         geo_data.append(
             {"City": ip_obj.city.name,
              "coordinates": [ip_obj.location.latitude,
