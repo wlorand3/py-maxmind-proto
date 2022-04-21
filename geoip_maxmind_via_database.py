@@ -21,6 +21,6 @@ with geoip2.database.Reader('./db/GeoLite2-City_20220301/GeoLite2-City.mmdb') as
                              ip_obj.location.longitude],
              "accuracy": ip_obj.location.accuracy_radius})
 
-# print(geo_data)
-geo_json = json.dumps(geo_data, indent=2)
-print(geo_json)
+# convert to json
+json_data = json.dumps(geo_data, indent=2)
+print(json_data)
