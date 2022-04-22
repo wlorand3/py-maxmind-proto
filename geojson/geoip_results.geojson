@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.4075, 48.8323]}, "properties": {"geoip_accuracy_radius": 5, "city_name": "Paris"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [5.0139, 47.3167]}, "properties": {"geoip_accuracy_radius": 100, "city_name": "Dijon"}}]}
