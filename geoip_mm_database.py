@@ -5,7 +5,7 @@ import data.ip_data as data
 
 geo_data = []
 
-with geoip2.database.Reader('./db/GeoLite2-City_20220301/GeoLite2-City.mmdb') as reader:
+with geoip2.database.Reader('./db/GeoLite2-City_20220419/GeoLite2-City.mmdb') as reader:
 
     # for ip in data.more_ip_addresses:
     for ip in data.ip_address_pair:
